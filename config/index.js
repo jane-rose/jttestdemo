@@ -12,7 +12,7 @@ if (process.env.CDM === 'online') {
 }
 module.exports = {
   dev: {
-
+    env: require('./dev.env'),
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
@@ -51,6 +51,7 @@ module.exports = {
 
   build: {
     // Template for index.html
+    env: require('./prod.env'),
     index: path.resolve(__dirname, '../dist/index.html'),
 
     // Paths
