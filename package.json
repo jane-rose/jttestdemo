@@ -62,7 +62,7 @@
     "eslint-import-resolver-webpack": "~0.8.1",
     "eslint-loader": "~1.7.1",
     "eslint-plugin-html": "~3.0.0",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^8.0.1",
     "portfinder": "^1.0.13",
     "postcss-import": "^11.0.0",
     "postcss-loader": "^2.0.8",
